@@ -19,8 +19,9 @@ export default function Home() {
             <br></br>
             <p className="intro-text">
               Hi, I'm Rachel Gottlieb. I'm a Digital Media student at the University of Central Florida, 
-              focusing on Web and Interactive Media. This portfolio highlights some of my Mobile Development class projects, as well as a peronsal website with other projects from past courses. 
-          I enjoy creating user-centered designs and interactive experiences that blend functionality and style.
+              focusing on Web and Interactive Media. In this portfolio, you will find some of my Mobile Development class projects, as well as a peronsal website with other projects from past courses. 
+              I enjoy creating user-centered designs and interactive experiences that blend functionality and style. 
+              From past designs to current projects, this portfolio represents my ongoing journey within digital media.
             </p>
           </div>
         </div>

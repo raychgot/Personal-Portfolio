@@ -4,8 +4,14 @@ export default function About() {
       <h1>About Me</h1>
       <br />
       <p className="about-text">
-        I am a digital media student at the University of Central Florida with a passion for content strategy, digital communication, and front-end development.
-        I've worked with content tools like Canva, managed ad campaigns, and built interactive apps. My coursework has covered interactive design, web design, and mobile app development.
+        While studying digital media at the University of Central Florida, I have gained many skills and insight into this industry.
+        My coursework has covered interactive design, web design, and mobile app development.
+        With a passion for content strategy, digital communication, and front-end development, I am eagar continue learning and building my skills.
+        I've worked with content tools like Canva, Photoshop, Figma, and have built interactive apps through React. In the past, 
+        I have taken on roles that have helped me to grow my skills within the communication field. I have designed and managed ad sales for a yearbook campaign, 
+        assisted with social media and promotional efforts for a retail brand, created and edited content online for an educational app, 
+        and have gained experience in business communication and customer engagement through various roles. I am looking forward to creating new projects and 
+        learning new tools as I grow as a student in this industry.
       </p>
 
       <div className="skills-vertical">
