@@ -15,8 +15,9 @@ export default function Contact() {
   };
 
   return (
-    <div style={{ padding: "40px" }}>
-      <h2>Contact Me</h2>
+    <div className="content-wrapper">
+      <h1>Contact Me</h1>
+      <br></br>
       {submitted ? (
         <p>Thanks for your message, {form.name}!</p>
       ) : (
@@ -24,15 +25,18 @@ export default function Contact() {
           <input type="text" name="name" placeholder="Name" onChange={handleChange} style={{ display: "block", margin: "10px 0", width: "100%" }} />
           <input type="email" name="email" placeholder="Email" onChange={handleChange} style={{ display: "block", margin: "10px 0", width: "100%" }} />
           <textarea name="message" placeholder="Message" onChange={handleChange} style={{ display: "block", margin: "10px 0", width: "100%" }}></textarea>
+          <br></br>
           <button type="submit">Send</button>
         </form>
       )}
-
-      <h3>Follow Me</h3>
-      <p>
+<br></br><br></br><br></br><br></br><br></br><br></br><br></br>
+      <h2>Follow Me</h2>
+      <br></br>
+      <h3>
         <a href="https://github.com/raychgot" target="_blank" rel="noreferrer">GitHub</a> | 
-        <a href="https://linkedin.com/in/rachelgottlieb" target="_blank" rel="noreferrer"> LinkedIn</a>
-      </p>
+        <a href="https://www.linkedin.com/in/rachelgottliebb/" target="_blank" rel="noreferrer"> LinkedIn</a>
+      </h3>
     </div>
   );
 }
+

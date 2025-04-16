@@ -4,7 +4,7 @@ export default function Projects() {
       title: "To-Do App",
       description: "A task management app built in React Native.",
       link: "https://raychgot.github.io/new-todo-app1/"
-    },
+    }, 
     {
       title: "Exercise Tracker",
       description: "Tracks reps and durations using React Native & Expo.",
@@ -12,23 +12,31 @@ export default function Projects() {
     },
     {
       title: "Personal Website",
-      description: "My personal portfolio built with React and Vite.",
-      link: "https://github.com/raychgot/portfolio-site"
+      description: "My personal website created in the Front-End Web Design course showcasing other past projects.",
+      link: "https://students.gaim.ucf.edu/~ra617629/Dig3174C/FinalProject.html"
     }
   ];
 
   return (
-    <div style={{ padding: "40px" }}>
-      <h2>My Projects</h2>
+    <div className="content-wrapper">
+      <h1>My Projects</h1>
+      <br /><br />
       <ul>
         {projects.map((project, index) => (
-          <li key={index} style={{ marginBottom: "20px" }}>
+          <ul key={index} style={{ marginBottom: "20px" }}>
             <h3>{project.title}</h3>
             <p>{project.description}</p>
-            <a href={project.link} target="_blank" rel="noreferrer">View on GitHub</a>
-          </li>
+            <a 
+              href={project.link} 
+              target="_blank" 
+              rel="noreferrer"
+            >
+              {index === 2 ? "View on students.gaim.ucf.edu" : "View on GitHub"}
+            </a>
+          </ul>
         ))}
       </ul>
     </div>
   );
 }
+
