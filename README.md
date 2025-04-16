@@ -23,10 +23,10 @@ src/
 └── App.jsx          # Main app router
 ```
 
-## 🖥️ Live Demo
+## Live Demo
 [View Portfolio](https://raychgot.github.io/Personal-Portfolio/)  
 
-## 🔧 Installation
+## Installation
 1. Clone the repo:
    ```bash
    git clone https://github.com/raychgot/Personal-Portfolio.git
